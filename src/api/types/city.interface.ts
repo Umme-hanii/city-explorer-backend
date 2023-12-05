@@ -1,4 +1,4 @@
-export interface cityInterface {
+export interface CityInterface {
   name: string
   name_native: string
   country: string
