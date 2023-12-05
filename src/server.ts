@@ -1,5 +1,6 @@
 import express from 'express'
 import cors from 'cors'
+import 'express-async-errors'
 import { router } from './api/routes/index'
 import { notFound } from './api/middleware/not-found'
 import { errorHandlerMiddleware } from './api/middleware/error-handler'
