@@ -8,7 +8,7 @@ import { NotFound } from '../errors/not-found'
 
 export const getAllCities = async (req: Request, res: Response) => {
   const citiesData: { cities: CityInterface[] } = await getData()
-  return res.status(StatusCodes.OK).json(citiesData)
+  return res.status(StatusCodes.OK).json(citiesData.cities)
 }
 
 export const getCity = async (req: Request, res: Response) => {
