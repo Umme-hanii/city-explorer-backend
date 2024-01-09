@@ -3,8 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "server.ts",
+
   "scripts": {
-    "start": "nodemon",
+    "start": "ts-node src/server.ts",
     "test": "jest"
   },
   "author": "Umme Hani",
